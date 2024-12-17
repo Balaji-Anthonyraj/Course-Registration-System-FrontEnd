@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <script type="text/javascript" src="myscript.js"></script>
+
+        <style>
+            td{
+                background-color: aliceblue;
+            }
+    
+            body{
+                padding: 50px;
+            }
+        </style>
+    
+    </head>
+    <body>
+        <table align="center" border="1" style="background-color: black;">
+            <tr align="center" style="background-color: lightblue;">
+                <th width="100">Course Id</th>
+                <th width="150">Course Name</th>
+                <th width="150">Trainer</th>
+                <th width="140">Duration in weeks</th>
+            </tr>
+
+            <tbody align="center" id="coursetable"></tbody> <!--Table body where rows will be inserted -->
+        </table>
+
+
+        <script type="text/javascript">
+            window.onload = function(){
+                showCourses();
+            };
+        </script>
+    </body>
+</html>
